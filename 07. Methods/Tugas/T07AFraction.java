@@ -1,6 +1,6 @@
 // File: T07AFraction.java
 public class T07AFraction {
-  // bagian ide/ algoritma
+  // Bagian ide/ algoritma
   
   /* Method untuk menambahkan pecahan 1 dan pecahan 2 */
   static void sumFraction(int e1, int d1, int e2, int d2)  {
@@ -25,7 +25,7 @@ public class T07AFraction {
     System.out.println(e + " / " + d); 
   }
 
-  /* Method untuk mencari fpb pembilang dan penyebut */
+  /* Method untuk mencari FPB pembilang dan penyebut */
   static int fpb(int e, int d)  {
     int fpb = 1;
     for (int i = 1; i <= e && i <= d; i++) {
@@ -36,7 +36,7 @@ public class T07AFraction {
   }
 
   public static void main(String[] args)  {
-    // method utama untuk melakukan testcase
+    // Method utama untuk melakukan testcase
     sumFraction(1, 2, 2, 3);
     sumFraction(1, 3, 3, 4);
     productFraction(1, 2, 2, 3);
